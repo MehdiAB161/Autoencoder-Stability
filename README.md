@@ -13,6 +13,7 @@ Tensorflow 0.10+, Python 3
 ### Data
 
 You can download the datasets by using the import.sh script from the bash subfloder.
+
 In order to specify the Dataset, you should add an option next to the script:
 
 ```
@@ -25,6 +26,7 @@ In order to specify the Dataset, you should add an option next to the script:
 
 Then you can choose the configuration by changing the first line on the main.py file.
 For example:
+
 ```
 from config.autoencoder.U_1M import Experiment
 ```
